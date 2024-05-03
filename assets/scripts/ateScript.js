@@ -1,3 +1,9 @@
+fetch("https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/json/doreur-relieur.json")
+    .then((response) => response.json())
+    .then(data => console.log(data))
+
+
+
 // if you have any suggestion of questions, pleasse feel free to send me an email to chiholiu10@gmail.com
 
 (function() {
